@@ -19,9 +19,9 @@ en = {
 	"Bahasa telah di ubah ke {}!": "Language changed to {}!",
 	"Bahasa di *{}* saat ini adalah:\n{}.\n\nPilih bahasa:": "Current language in *{}* is:\n{}.\n\nSelect language:",
 	"obrolan saat ini": "current in this chat",
-	"language_help": """Not every group speaks indonesian; some groups would rather have Emilia respond in their own language.
+	"language_help": """Not every group speaks indonesian; some groups would rather have Realme Indonesia respond in their own language.
 
-This is where translations come in; you can change most of Emilia's replies to be in the language of your choice!
+This is where translations come in; you can change most of Realme Indonesia's replies to be in the language of your choice!
 
 Available languages are:
 - 🇮🇩 Indonesia
@@ -33,18 +33,21 @@ Available commands are:
 # __main__
 	"Ada yang bisa saya bantu? 😊": "Is there anything I can help? 😊",
 	"start_text": """
-Hi {}, my name is {}! I am a group manager managed by [my master](tg://user?id={}).
-To get this bot status info and update, you can join our channel [Ayra's Bot News](https://t.me/AyraBotNews)
+Hai {}, nama saya {}! Saya bot manajer grup yang dikelola oleh admin group realme yg merupakan fork dari @EmiliaHikariBot.
 
-Any issue or need more help?
-Join our group [Emilia Official Support](https://t.me/EmiliaOfficial)!
+Untuk mendapatkan bantuan silahkan join ke : @polybotsupport
 
-You can find the list of available commands with /help.
+Credits to =
+1. Allah SWT
+2. Nabi Muhammad SAW
+3. @AyraHikari
+4. @SoekarnoHatta
+5. @Hachi_silebah
 
-If you're enjoying using me, and/or would like to help me survive in the wild, hit /donate to help fund/upgrade my VPS!
+Source: https://github.com/AyraHikari/EmiliaHikari
 """,
 	"help_text": """
-Hey there! My name is *Emilia*.
+Hey there! My name is *Realme Indonesia*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 
@@ -62,14 +65,15 @@ All commands can either be used with / or !.
 
 And the following:
 """,
-	"donate_text": """Hello, glad to hear you want to donate!
-Need a lot of work for [my creator](tg://user?id=388576209) to take me to my place now, and \
-every donation helps and motivates him to make me better.
+	"donate_text": """Hai, senang mendengar Anda ingin menyumbang!
+Butuh banyak pekerjaan untuk @Hachi_silebah untuk membawa saya ke tempat saya sekarang, dan \
+setiap sumbangan membantu dan memotivasi dia untuk membuat saya lebih baik.
 
-All donated money will be given to a better VPS to host me, and or some food. \
-He is just an ordinary person, so it will really help him!
+Semua uang sumbangan akan diberikan ke VPS yang lebih baik untuk menjadi tuan rumah saya, dan atau beberapa makanan. \
+Dia hanya orang biasa, jadi akan sangat membantu dia!
 
-If you really are interested in donating, please visit paypal.me/AyraHikari, Thank you 😁""",
+Jika anda memang berminat untuk donate, silahkan kunjungi @donasi_Realme, Terima kasih 😁!
+""",
 	"Kembali": "Back",
 	"Hubungi saya di PM untuk mendapatkan daftar perintah.": "Contact me in PM to get the list of possible commands.",
 	"Tolong": "Help",
@@ -186,8 +190,8 @@ Examples of time values: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days, 5w = 5 week.
 # Backups
 	"Coba unduh dan unggah ulang file seperti Anda sendiri sebelum mengimpor - yang ini sepertinya rusak!": "Try downloading and reuploading the file as yourself before importing - this one seems to be iffy!",
 	"File cadangan tidak valid!": "Invalid backup file!",
-	"Telah terjadi kesalahan dalam import backup Emilia!\nGabung ke [Grup support](https://t.me/EmiliaOfficial) kami untuk melaporkan dan mengatasi masalah ini!\n\nTerima kasih": "An exception occured while restoring your data from Emilia backup!\nJoin our [Group support](https://t.me/EmiliaOfficial) for reporting and troubleshooting this problem!\n\nThank you",
-	"Telah terjadi kesalahan dalam import backup Rose!\nGabung ke [Grup support](https://t.me/EmiliaOfficial) kami untuk melaporkan dan mengatasi masalah ini!\n\nTerima kasih": "An exception occured while restoring your data from Rose backup!\nJoin our [Group support](https://t.me/EmiliaOfficial) for reporting and troubleshooting this problem!\n\nThank you",
+	"Telah terjadi kesalahan dalam import backup Realme Indonesia!\nGabung ke [Grup support](https://t.me/Realme IndonesiaOfficial) kami untuk melaporkan dan mengatasi masalah ini!\n\nTerima kasih": "An exception occured while restoring your data from Realme Indonesia backup!\nJoin our [Group support](https://t.me/Realme IndonesiaOfficial) for reporting and troubleshooting this problem!\n\nThank you",
+	"Telah terjadi kesalahan dalam import backup Rose!\nGabung ke [Grup support](https://t.me/Realme IndonesiaOfficial) kami untuk melaporkan dan mengatasi masalah ini!\n\nTerima kasih": "An exception occured while restoring your data from Rose backup!\nJoin our [Group support](https://t.me/Realme IndonesiaOfficial) for reporting and troubleshooting this problem!\n\nThank you",
 	"Ada lebih dari satu grup di file ini, dan tidak ada yang memiliki id obrolan yang sama dengan grup ini - bagaimana cara memilih apa yang akan diimpor?": "Theres more than one group here in this file, and none have the same chat id as this group - how do I choose what to import?",
 	"Backup berasal chat lain, Saya tidak bisa mengembalikan chat lain kedalam chat *{}*": "Backup comes from another chat, I can't return another chat to chat *{}*",
 	"Backup berasal chat lain, Saya tidak bisa mengembalikan chat lain kedalam chat ini": "Backup comes from another chat, I can't return another chat to this chat",
@@ -229,7 +233,7 @@ Examples of time values: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days, 5w = 5 week.
 	"backups_help": """
 *Admin only:*
  - /import: reply to a group butler/marie/rose/emilia backup file to import as much as possible, making the transfer super simple!
-Note that files/photos from other bots can't be imported due to telegram restrictions. Except for Emilia backup it self.
+Note that files/photos from other bots can't be imported due to telegram restrictions. Except for Realme Indonesia backup it self.
  - /export: export group data, you can do this 12 hours once.
 """,
 	"*Data yang tidak dapat di import*": "*Data which can't be imported*",
